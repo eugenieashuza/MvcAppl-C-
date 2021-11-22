@@ -38,6 +38,14 @@ namespace MvcExercices
                         "~/Content/themes/base/jquery.ui.datepicker.css",
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
+
+            bundles.Add(new StyleBundle("~/Assets/css").Include(
+                         "~/Assets/css/bootstrap.css",
+                         "~/Assets/css/style.css"));
+             bundles.Add(new ScriptBundle("~/Assets/js").Include(
+                          "~/Assets/js/bootstrap.js",
+                         "~/Assets/js/script.js"
+                        ));
         }
     }
 }
